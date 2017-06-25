@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css?family=Arimo');
+@stnd = 25px;
+
+
+body{
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    height: auto;
+    font-family: 'Arimo', sans-serif;
+    
+}
+
+#header{
+    width: 92%;
+    min-height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(/images/beach.jpg);
+    background-repeat: no-repeat;
+    background-origin: inherit;
+    background-position: center;
+    background-size: cover;
+    overflow-x: hidden;
+}
+
+.nav{
+    list-style: none;
+    padding: 0 5px 0 5px;
+    margin-left: 10px;
+    float: right;
+    display: inline;    
+}
+
+
+#header ul{
+    overflow: hidden;
+    padding: 3px;
+    margin: 0px;
+}
+
+#header ul li a{
+     margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 26px;
+    text-decoration: none;
+    color: white;
+    line-height: 3.6;
+    margin-left: 10px;
+    padding: 0px;
+    
+}
+
+#header ul li{
+    padding-bottom: 0px;
+}
+
+#header ul li :hover{
+    color: #106695;
+    opacity: 0.65;
+    border-radius: 3px;
+ /* Decided not to use these because i wanted a more        natural feel */
+/*  background-color: dimgrey; 
+    border-top: 10px solid white;  */
+}
+
+#header #menu_hover{
+    display: none;
+    visibility: hidden;
+}
+#header #brand_img{
+    margin-top:  10px;
+    width: 60px;
+    height: 65px;
+    float: left !important;
+}
+#header #brand{
+    float: left;
+    padding: 0px;
+    line-height: 0;
+}
+#header #brand :hover{
+    background-color: transparent;
+    border-top: 0px;
+    opacity: 1;
+}
+
+
+#header .header_p{
+    margin-top: 100px;
+    text-align: center;
+    color: white;
+    font-size: 5em;
+    margin-bottom: 10px;
+}
+
+#body1{
+    width: 92%;
+    height: auto;
+    margin: auto;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.65;
+    background-color: white;
+    background-repeat: no-repeat;
+    margin-top: 5px;
+}
+#collective_div{
+    width: auto;
+    padding: 1%;
+    height:auto;
+    overflow: hidden;
+    
+}
+#collective_div div{
+    height: 350px;
+    width: 21.3%;
+    padding: 1.5%;
+    padding-right: 
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    display: inline-block;
+}
+
+#blue_div{
+    background-color: dodgerblue;
+    padding: auto;
+}
+#blue_div p{
+    color: gold;
+}
+
+#green_div{
+    background-color: darkgreen;
+}
+#green_div p{
+    color: antiquewhite;
+}
+
+
+
+#white_div{
+    background-color: antiquewhite;
+}
+#white_div p{
+    color: blue;
+}
+
+
+#gold_div{
+    background-color:  darkgoldenrod;
+}
+#gold_div p{
+    color: green;
+}
+
+
+
+@media (max-width: 600px){
+    
+    #header .header_p{
+        font-size: 3.1em;
+    }
+    
+    #brand{
+        display: none;
+    }
+    #header{
+        text-align: center;
+    }
+    
+    #header{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #header #menu{
+        padding-left: auto;
+        padding-right: auto;
+    }
+    #header #menu {
+        padding: 0;
+    }
+    
+    .nav{
+        width: 31.5%;
+        margin-left: auto;
+        margin-right: auto;
+        overflow: hidden;
+        padding: 0%;
+        margin: auto;
+    }
+    
+    #body1{
+        height: auto;
+    }
+    
+    #collective_div{
+        width:100%;
+        height: auto;
+        overflow: hidden;
+    }
+    
+  #collective_div div{
+    width: 100%;
+    max-height: 156px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    display: inline-block;
+      
+}  
+    
+    
+}
+
+
+#foot{
+    background: grey;
+    opacity: 0.6;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0.7%;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+#foot p{
+    font-size: 30px;
+    color: purple;
+}
+
+#body2 form input{
+    font-size: 15px;
+    margin: 1%;
+    border-radius: 10px;
+    height: 20px;
+    text-align: center;
+}
+
+#body2 form #submit{
+    color: blue;
+    padding: 1.5%;
+    line-height: 0.3;
+}
